@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Assylkhan Alzhanov SE-2018</title>
+    <style>
+    footer
+    {
+      width: 100%;
+      height:60px;
+      background-color: lightgray;
+    }
+    table, td, th
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(244, 255, 143);
+    }
+    main
+    {
+        display:flex;
+        flex-direction:row;
+        width:100%;
+        height:450px;
+        background-color: lightpink;
+        justify-content: space-around;
+    }
+    .photo
+    {
+      width: 20% ;
+      height:1000px;
+    }
+    .info
+    {
+      width: 78% ;
+      height:1000px;
+    }
+    hr
+    {
+      border: 3px dashed red;
+    }
+    header
+    {
+
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Assylkhan Alzhanov - all you need to know</h1>
+    </header>
+    <main>
+      <div class="photo">
+        <img src="me.jpg" alt="Assylkhan's photo" style="width: 100%; heigth: 500px">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Play on synth</li>
+          <li>Listening music</li>
+          <li>Play games</li>
+          <li>Sleep :-P</li>
+        </ul>
+      </div>
+      <div class="info">
+        <h1>Who am I?</h1>
+        <p> My name is Assylkhan and I am student of <a href="https://astanait.edu.kz">AITU.</a></p>
+        <p>I studied at school lyceum 64 and graduated with a red certificate. I took part in the physics Olympiad and got on the republican tour, which was later canceled due to the virus, and there is still no news about the Olympics. I also participated a STEM at the Olympiad, where me and my team received the Grand Prix and for the next round did not receive any news either. I am not a particularly sympathetic person, since I like to work most of the time myself, so you can only contact me by mail.(In an emergency call me)</p>
+        <hr>
+        <h4><span style="color: red">NOTE</span>: Since I am still studying, I have little experience, so this page will be changed and improved in the future.</h4>
+        <hr>
+        <p><a href="#leave_info">Below</a> you can leave information about yourself so that I can contact you in the future. Or you can write to me by mail, which will be indicated <a href="#my_cont">there</a>.</p>
+      </div>
+    </main>
+    <div>
+      <h1 id="leave_info">Leave your information here</h1>
+      <div>
+       <label>Name:</label>
+       <input type="text" name="name">
+      </div>
+
+       <div>
+      <label>Last Name:</label>
+      <input type="text" name="surname">
+       </div>
+
+       <div>
+           <label> City:</label>
+           <select>
+               <option> ------- </option>
+               <option> Nur_Sultan </option>
+               <option> Almaty </option>
+               <option> Atyrau </option>
+               <option> Shymkent </option>
+               <option> Kostanay </option>
+               <option> Other city </option>
+           </select>
+       </div>
+
+      <div>
+       <label> Phone number:</label>
+       <input type="tel" name="number">
+      </div>
+
+      <div>
+       <label> Email:</label>
+       <input type="email" name="Email">
+      </div>
+
+      <button> Submit </button>
+    </div>
+    <div>
+      <h1 id="my_cont">Contact me</h1>
+      <table cellpadding ="5px">
+          <tr>
+           <th>Email:</th>
+           <th>201547@astanait.edu.kz</th>
+          </tr>
+
+          <tr>
+           <th>Phone number:</th>
+           <th>+7 778 647 15 41</th>
+          </tr>
+        </table>
+    </div>
+    <br>
+      <footer>Created by Assylkhan (me :-P)
+        <br />
+        PS(IDK why my footer dont wanna stay in the right place))
+      </footer>
+  </body>
+
+</html>
